@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/nomalize.css">
+  <link rel="stylesheet" href="styles/palettes.css">
+  <link rel="stylesheet" href="styles/typography.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/section.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+  <title>Metoder</title>
+</head>
+<body class="app bg-main fg-black">
+  <header class="navbar bg-accent fg-white">
+    <h1 class="txt-l">Metoder</h1>
+    <h2 class="txt-m">Funksjoner som hører til de forskjellige typene</h2>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <h2 class="txt-l">Primitive Typer</h2>
+      <ul >
+        <li>
+          <article class="section-cards">
+            <header class="card-header">
+              <h3>Type: Boolean</h3>
+              <h4 class="txt-m">Boolske verdier (sant/usant)</h4>
+            </header>
+
+            <div class="card-main">
+              <p>Boolske verdier er enkle og har ikke mange metoder</p>
+            </div>
+
+            <footer class="card-footer">
+              <nav>
+                <h4>Lenker</h4>
+                <ul class="txt-s">
+                  <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" target="_blank" rel="noreferrer">MDN Boolean</a>
+                  </li>
+                </ul>
+              </nav>
+            </footer>
+          </article>
+        </li>
+
+        <li>
+          <article class="section-cards">
+            <header class="card-header">
+              <h3>Type: String</h3>
+              <h4 class="txt-m">Tekst elementer</h4>
+            </header>
+
+            <div class="card-main">
+              <p>Strenger er mer komplekse og har mange metoder du kan bruke på de</p>
+              <p>Noe du vil se er at de fleste endrer ikke den orginale variabelen, men lager og returnerer en ny variant som du kan bruke.</p>
+              <ul>
+                <h5>Nyttige metoder</h5>
+                <li>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase">
+                    <h6>String.toLowerCase()</h6>
+                    <p>Returnerer en ny streng hvor alle bokstaven er små</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <footer class="card-footer">
+              <nav>
+                <h4>Lenker</h4>
+                <ul>
+                  <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" rel="noreferrer">MDN String</a>
+                  </li>
+                </ul>
+              </nav>
+            </footer>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Generert Liste</h2>
+      <p>Her er et &lt;ul&gt; element hvor alle &lt;li&gt; under elementene blir generert ved hjelp av JavaScript </p>
+      <ul id="person-list"></ul>
+    </section>
+  </main>
+
+  <footer class="footer bg-accent fg-main">
+    <h2>&copy;Kodeloftet</h2>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

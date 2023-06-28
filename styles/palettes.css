@@ -1,0 +1,57 @@
+/* Palettes */
+:root {
+  --color-primary: #FFE26B;
+  --color-secondary: #BCAB75;
+  --color-tertiary: #FEF0CA;
+  --color-accent: #005246;
+
+  --color-white: #f0f0f0;
+  --color-gray: #8f8f8f;
+  --color-black: #0f0f0f;
+}
+
+/* Background classes */
+.bg-main {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+}
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-gray {
+  background-color: var(--color-gray);
+}
+.bg-black {
+  background-color: var(--color-black);
+}
+
+/* Foreground classes */
+.fg-main {
+  color: var(--color-primary);
+}
+.fg-secondary {
+  color: var(--color-secondary);
+}
+.fg-tertiary {
+  color: var(--color-tertiary);
+}
+.fg-accent {
+  color: var(--color-accent);
+}
+.fg-white {
+  color: var(--color-white);
+}
+.fg-gray {
+  color: var(--color-gray);
+}
+.fg-black {
+  color: var(--color-black);
+}

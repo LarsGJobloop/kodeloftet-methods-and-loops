@@ -1,0 +1,39 @@
+:root {
+  font-family: 'Oswald', sans-serif;
+
+  --size-base: 8px;
+}
+
+/* Set some semi sensible default sizes */
+h1 {
+  font-size: calc( 8 * var(--size-base));
+}
+h2 {
+  font-size: calc( 7 * var(--size-base));
+}
+h3 {
+  font-size: calc( 6 * var(--size-base));
+}
+h4 {
+  font-size: calc( 5 * var(--size-base));
+}
+h5 {
+  font-size: calc( 4 * var(--size-base));
+}
+h6 {
+  font-size: calc( 2 * var(--size-base));
+}
+p {
+  font-size: calc( 3 * var(--size-base));
+}
+
+/* CSS Text Size classes */
+.txt-s {
+  font-size: calc( 3 * var(--size-base));
+}
+.txt-m {
+  font-size: calc( 4 * var(--size-base));
+}
+.txt-l {
+  font-size: calc( 6 * var(--size-base));
+}

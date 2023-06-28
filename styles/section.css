@@ -1,0 +1,33 @@
+section:nth-child(odd) {
+  background-color: var(--color-tertiary);
+}
+section:nth-child(even) {
+  background-color: var(--color-secondary);
+}
+
+.section {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.section-cards {
+
+}
+
+.card-header {
+
+}
+
+.card-main {}
+.card-main > ul > li {}
+.card-main > ul > li:hover {
+  transform: scale(1.05);
+  background-color: var(--color-secondary);
+
+  transition: all 200ms ease-in-out;
+}
+
+.card-footer {}
+.card-footer > nav > ul > li {
+  padding-left: 1rem;
+}
